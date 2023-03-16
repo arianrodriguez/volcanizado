@@ -28,8 +28,7 @@
     border: none;
     border-radius: 20px;
     width: 100%;
-    padding: .2rem .2rem .1rem;
-    padding-left: 2rem;
+    padding: .5rem .35rem .4rem 2rem;
 }
 
 .search__content input::placeholder {
@@ -40,8 +39,8 @@
 
 .icon-search {
     position: absolute;
-    left: .5rem;
-    top: .2rem;
+    left: .55rem;
+    top: .48rem;
     font-size: .85rem;
 }
 
