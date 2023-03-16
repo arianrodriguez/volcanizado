@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__content {
+    height: inherit;
+}
+
+.header__content-banner {
+    color: #fff;
+    align-items: center;
+}
+
+.title {
+    font-family: var(--font-title);
+    font-weight: 200;
+}
+
+
+@media screen and (max-width: 380px) {
+    .header__content-banner .title {
+        font-size: 2rem;
+    }
+
+    .header__content-banner p {
+        font-size: .6rem;
+    }
+}
