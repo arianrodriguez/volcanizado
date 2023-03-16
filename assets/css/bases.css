@@ -43,3 +43,20 @@ body {
     text-align: center;
     padding: 1rem 0;
 }
+
+
+.button {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    transition: .5s;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}

@@ -3,4 +3,5 @@
 @import url(./header.css);
 @import url(./nav.css);
 @import url(./catalogo.css);
-@import url(./footer.css)
+@import url(./footer.css);
+@import url(./auth/login.css);
