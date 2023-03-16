@@ -1,7 +1,6 @@
 .navbar {
-    background: linear-gradient(rgba(12, 5,7, .4), rgba(12,5,7,.4)), url(/assets/img/background.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar__content {

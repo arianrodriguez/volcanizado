@@ -36,7 +36,7 @@
 }
 
 .media-icon i {
-    padding: .5rem;
+    padding: .5rem .55rem;
     font-size: 1rem;
 }
 .footer__content-info, .footer__content-bg {
@@ -44,8 +44,6 @@
 }
 
 .footer__content-bg div {
-    background-image: url(/assets/img/background.jpeg);
-    background-size: cover;
     width: 30%;
     height: 150px;
     margin-left: auto;
