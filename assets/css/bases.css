@@ -24,14 +24,14 @@ body {
     scrollbar-width: thin;
 }
 
-body::-webkit-scrollbar {
-    width: 15px;
+::-webkit-scrollbar {
+    width: 5px;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: #797979;
     border-radius: 20px;
-    border: 4px solid #f1f2f3;
+    border: 1px solid #f1f2f3;
 }
 
 .flex-center {
