@@ -1,0 +1,72 @@
+.paneladmin {
+    width: 100%;
+}
+
+.paneladmin__container {
+    max-width: 940px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.paneladmin__container .title__content {
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+.paneladmin__container .title__content h1 {
+    font-size: 1.3rem;
+}
+
+.paneladmin__container .title__content button {
+    font-size: .8rem;
+    padding: 1rem;
+}
+
+.paneladmin__container .products__content {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.products__content-row > ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.products__row-item {
+    align-items: center;
+}
+
+.item__img {
+    position: relative;
+    margin-bottom: .5rem;
+
+}
+
+.item__img-icons {
+    position: absolute;
+    top: .5rem;
+    right: .3rem;
+    gap: .8rem;
+    color: #191825;
+}
+
+.fa-solid:hover {
+    color: #EA5455;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 715px) {
+    .products__content-row > ul {
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .paneladmin__container .title__content {
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+}

@@ -1,0 +1,79 @@
+.addproduct-nav {
+    margin-bottom: 1.5rem;
+}
+
+.addproduct {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.addproduct__content {
+    padding: 2.5rem;
+}
+
+.addproduct__content form legend {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form__content {
+    padding: 2rem;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .15);
+}
+
+.form__content input {
+    display: block;
+}
+
+.form__content input, .form__content textarea {
+    background-color: rgba(255, 255, 255, 0.329);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+.form__content input[type="file"]::-webkit-file-upload-button {
+    background: #4B4D1B;
+    background: -webkit-linear-gradient(to left, #2D2D15, #5d5f25);
+    background: linear-gradient(to left, #2D2D15, #5d5f25); 
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    font-family: var(--font);
+    cursor:pointer;
+    padding: .5rem 1rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.form__content input[type="file"]::-webkit-file-upload-button:hover {
+    transform: scale(1.01);
+}
+
+.form__content label {
+    font-size: 1.2rem;
+}
+
+.form__content .button {
+    color: #fff;
+}
+
+@media screen and (max-width: 510px) {
+    .form__content input[type="file"]::-webkit-file-upload-button {
+        display: block;
+        margin-bottom: 1rem;
+        width: auto;
+    }
+}

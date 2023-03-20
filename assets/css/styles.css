@@ -5,3 +5,5 @@
 @import url(./catalogo.css);
 @import url(./footer.css);
 @import url(./auth/auth.css);
+@import url(./admin/panel.css);
+@import url(./admin/addproduct.css);
