@@ -61,8 +61,12 @@
                 <div class="form__content flex-column">
 
                     <div class="form__content-item">
-                        <label for="">imagen</label>
-                        <input type="file" name="image_product" autocomplete="off" title=""  accept="image/png, image/jpg, image/jpeg" required>
+                        <label for="image_product">imagen</label>
+                        <div class="flex-center">
+                            <div class="button bg button-img">Subir imagen</div>
+                            <span id="placeholder-img">Ninguna imagen seleccionada</span>
+                            
+                        </div>
                     </div>
 
                     <div class="form__content-item">
@@ -76,21 +80,27 @@
                     </div>
 
                     <div class="form__content-item">
-                        <label for="stock_product">stock</label>
-                        <input type="number" name="stock_product" autocomplete="off" title="" required>
+                        <label for="measure_product">medidas</label>
+                        <input type="number" name="measure_product" autocomplete="off" title="" required>
                     </div>
 
-                    <div class="form__content-item">
+                        <div class="form__content-item">
                         <label for="desc_product">descripción</label>
                         <textarea name="desc_product" cols="30" rows="10" autocomplete="off" title="" required></textarea>
                     </div>
 
-                    <button class="button bg">agregar</button>
+                    <button type="submit" class="button bg">agregar</button>
                 </div>
 
             </form>
+        
         </div>
     </main>
-        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script>
+    <script src="/services/upload_image.js"></script>
+    <script type="module" src="/services/add_product.js"></script>
 </body>
 </html>

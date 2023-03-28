@@ -1,5 +1,4 @@
 const navbar_top = document.querySelector('.navbar').getBoundingClientRect().top;
-console.log(navbar_top);
 window.addEventListener('scroll', () => {
     if(window.pageYOffset >= navbar_top) {
         const navbar = document.querySelector('.navbar');

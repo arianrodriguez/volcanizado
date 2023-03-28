@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "name": "piedra prueba",
+      "image": "",
+      "price": "20 soles",
+      "measure": "5x2cm"
+    },
+    {
+      "name": "piedra prueba",
+      "image": "",
+      "price": "10 soles",
+      "measure": "1x2cm"
+    },
+    {
+      "name": "piedra prueba",
+      "image": "",
+      "price": "50 soles",
+      "measure": "102x2cm"
+    },
+    {
+      "name": "piedra prueba",
+      "image": "",
+      "price": "40 soles",
+      "measure": "43x2cm"
+    },
+    {
+      "id": 1679887175603,
+      "name": "123",
+      "image": "",
+      "price": "123",
+      "measure": "1232"
+    },
+    {
+      "id": 1679887525523,
+      "name": "123",
+      "image": "",
+      "price": "123",
+      "measure": "33333"
+    },
+    {
+      "id": 1679887925316,
+      "name": "4454",
+      "image": "",
+      "price": "443",
+      "measure": "434"
+    },
+    {
+      "id": 1679888729163,
+      "image": {},
+      "name": "123",
+      "price": "434",
+      "measure": "43"
+    },
+    {
+      "id": 1679888791531,
+      "image": {},
+      "name": "123",
+      "price": "323",
+      "measure": "3"
+    },
+    {
+      "id": 1679888942025,
+      "image": "",
+      "name": "123",
+      "price": "32",
+      "measure": "32"
+    },
+    {
+      "id": 1679890881567,
+      "name": "asdasd",
+      "price": "123",
+      "measure": "323"
+    }
+  ]
+}
