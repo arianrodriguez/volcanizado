@@ -6,7 +6,7 @@ const see_products = () => {
 }
 
 const display_clients = () => {
-    return fetch('http://localhost:3000/client')
+    return fetch('http://localhost:5000/client')
     .then(resp => resp.json())
     .catch(err => console.log(err));
 }
